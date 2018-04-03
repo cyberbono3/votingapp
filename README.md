@@ -10,14 +10,14 @@ writing the tests at the first place and application code at the second. The cli
 *[Socket.io ] (https://socket.io/) enables reliable communication between client and server via websockets.
 *[Webpack] (https://webpack.js.org/) is Javascript building tool
 *[Mocha ] (https://mochajs.org/) is javascript test framework.
-*Chai] (https://chaijs.com) is assertion library that can be paired with test framework e.g Mocha
-*Redux (https://redux.js.org/) is the state container for Javascript apps
+*[Chai] (https://chaijs.com) is assertion library that can be paired with test framework e.g Mocha
+*[Redux] (https://redux.js.org/) is the state container for Javascript apps
 
 ## Client workflow
-1.User clicks vote button, the vote action is executed.
+1. User clicks vote button, the vote action is executed.
 2. Middleware transfers the action to the via Socket.io connection to the server
-3.After client's  Redux handles this action , the redux state is set to 'hasVote'.
-4.As soon as action reaches the server, server's redux handles action and renders it in the current results. Query handles in server store broadcasts the state snapshot to all connected clients.
+3. After client's  Redux handles this action , the redux state is set to 'hasVote'.
+4. As soon as action reaches the server, server's redux handles action and renders it in the current results. Query handles in server store broadcasts the state snapshot to all connected clients.
 SET_STATE actions are put to the store of every Client Redux. They are handled relying on updated state sent from server.
 
 
