@@ -4,13 +4,13 @@
 ## Overview 
 Client-server voting app is contructed using Redux and Immutable-js. 
 This project uses test driven developement approach. It dictates 
-writing the tests at the first place and application code at the second. The client part  is implemented  using React and Redu. The back end is implemented  using Node.js and Redux. Besides, the app uses the following instruments: 
+writing the tests at the first place and application code at the second. The client part  is implemented  using React and Redux. The back end is implemented  using Node.js and Redux. Besides, the app uses the following instruments: 
 
-*[Babel ] (https://babeljs.io)compiler of new generation Javascript                
+*[Babel ](https://babeljs.io/)compiler of new generation Javascript                
 *[Socket.io ] (https://socket.io/) enables reliable communication between client and server via websockets.
 *[Webpack] (https://webpack.js.org/) is Javascript building tool
 *[Mocha ] (https://mochajs.org/) is javascript test framework.
-*[Chai] (https://chaijs.com) is assertion library that can be paired with test framework e.g Mocha
+*[Chai] (https://chaijs.com/) is assertion library that can be paired with test framework e.g Mocha
 *[Redux] (https://redux.js.org/) is the state container for Javascript apps
 
 ## Client workflow
